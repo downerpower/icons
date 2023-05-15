@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <button
+    *ngIf="isButtonShown; else icon"
+    class="button"
+    (click)="toggleButtonVisible()"
+  >
+    CLICK ME!
+  </button>
+  <ng-template #icon>
+    <i [ngClass]="getIconClassName()" aria-hidden="true"></i>
+  </ng-template>
+</div>

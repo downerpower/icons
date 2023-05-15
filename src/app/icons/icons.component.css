@@ -1,0 +1,21 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffff;
+  background-color: #f06a73;
+  border: 0;
+  border-radius: 10px;
+  padding: 1.3rem 4.7rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
